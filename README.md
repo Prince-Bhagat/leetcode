@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0008-string-to-integer-atoi](https://github.com/Prince-Bhagat/leetcode/tree/master/0008-string-to-integer-atoi) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Prince-Bhagat/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Prince-Bhagat/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 ## Design
