@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Prince-Bhagat/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Prince-Bhagat/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0513-find-bottom-left-tree-value](https://github.com/Prince-Bhagat/leetcode/tree/master/0513-find-bottom-left-tree-value) |
+| [2121-find-if-path-exists-in-graph](https://github.com/Prince-Bhagat/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Binary Tree
 |  |
 | ------- |
@@ -61,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Prince-Bhagat/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Prince-Bhagat/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0513-find-bottom-left-tree-value](https://github.com/Prince-Bhagat/leetcode/tree/master/0513-find-bottom-left-tree-value) |
+| [2121-find-if-path-exists-in-graph](https://github.com/Prince-Bhagat/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## String
 |  |
 | ------- |
@@ -72,4 +74,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Prince-Bhagat/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Prince-Bhagat/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
+## Union Find
+|  |
+| ------- |
+| [2121-find-if-path-exists-in-graph](https://github.com/Prince-Bhagat/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
+## Graph
+|  |
+| ------- |
+| [2121-find-if-path-exists-in-graph](https://github.com/Prince-Bhagat/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 <!---LeetCode Topics End-->
