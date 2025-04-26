@@ -35,7 +35,7 @@ public class UnionFind {
         for (int i = 0; i < edges.length; i++) {
             union(edges[i][0], edges[i][1]);
         }
-        return find(src) == find(dest);
+        return checkForPathAfterUnion(src,dest);
 
     }
     private boolean checkForPathAfterUnion(int src, int dest){
