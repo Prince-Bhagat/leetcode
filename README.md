@@ -7,11 +7,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/Prince-Bhagat/leetcode/tree/master/0066-plus-one) |
+| [0268-missing-number](https://github.com/Prince-Bhagat/leetcode/tree/master/0268-missing-number) |
 ## Math
 |  |
 | ------- |
 | [0007-reverse-integer](https://github.com/Prince-Bhagat/leetcode/tree/master/0007-reverse-integer) |
 | [0066-plus-one](https://github.com/Prince-Bhagat/leetcode/tree/master/0066-plus-one) |
+| [0268-missing-number](https://github.com/Prince-Bhagat/leetcode/tree/master/0268-missing-number) |
 ## Stack
 |  |
 | ------- |
@@ -59,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search Tree
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/Prince-Bhagat/leetcode/tree/master/0268-missing-number) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Prince-Bhagat/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/Prince-Bhagat/leetcode/tree/master/0450-delete-node-in-a-bst) |
 ## Breadth-First Search
@@ -90,4 +93,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2121-find-if-path-exists-in-graph](https://github.com/Prince-Bhagat/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
+## Hash Table
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/Prince-Bhagat/leetcode/tree/master/0268-missing-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/Prince-Bhagat/leetcode/tree/master/0268-missing-number) |
+## Sorting
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/Prince-Bhagat/leetcode/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
