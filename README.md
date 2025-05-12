@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/Prince-Bhagat/leetcode/tree/master/0133-clone-graph) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Prince-Bhagat/leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Prince-Bhagat/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0207-course-schedule](https://github.com/Prince-Bhagat/leetcode/tree/master/0207-course-schedule) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Prince-Bhagat/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Prince-Bhagat/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0513-find-bottom-left-tree-value](https://github.com/Prince-Bhagat/leetcode/tree/master/0513-find-bottom-left-tree-value) |
@@ -72,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0101-symmetric-tree](https://github.com/Prince-Bhagat/leetcode/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Prince-Bhagat/leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0133-clone-graph](https://github.com/Prince-Bhagat/leetcode/tree/master/0133-clone-graph) |
+| [0207-course-schedule](https://github.com/Prince-Bhagat/leetcode/tree/master/0207-course-schedule) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Prince-Bhagat/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Prince-Bhagat/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0513-find-bottom-left-tree-value](https://github.com/Prince-Bhagat/leetcode/tree/master/0513-find-bottom-left-tree-value) |
@@ -95,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/Prince-Bhagat/leetcode/tree/master/0133-clone-graph) |
+| [0207-course-schedule](https://github.com/Prince-Bhagat/leetcode/tree/master/0207-course-schedule) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Prince-Bhagat/leetcode/tree/master/2121-find-if-path-exists-in-graph) |
 ## Hash Table
 |  |
@@ -109,4 +112,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/Prince-Bhagat/leetcode/tree/master/0268-missing-number) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/Prince-Bhagat/leetcode/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
