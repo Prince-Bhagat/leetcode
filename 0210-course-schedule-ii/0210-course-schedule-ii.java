@@ -1,7 +1,5 @@
 class Solution {
-    
-
-public class TopologicalSort {
+    public class TopologicalSort {
     int [][] edges;
     int [] visited; // 0 not visited ; 1 visited(still processing); 2 (visited and process)
     boolean isCycleExist;
@@ -15,20 +13,22 @@ public class TopologicalSort {
 
     }
 
-    public List<Integer> getOrder(){
-        List<Integer> list = new ArrayList<>();
+    int [] list;
+    int index =0;
+    public int [] getOrder(){
+        list = new int[numberOfVertex];
         for (int i = 0; i < numberOfVertex; i++) {
-            recursionDfsReverse(i,list);
+            recursionDfsReverse(i);
         }
         return list;
 
     }
 
-    public void recursionDfsReverse(int source, List<Integer> result){
+    public void recursionDfsReverse(int source){
 
         if(visited[source] == 1 || isCycleExist){
             isCycleExist = true;
-            result.clear();
+            list = new int[0];
             return;
         }
         if(visited[source] == 2) return ;
@@ -37,10 +37,15 @@ public class TopologicalSort {
         List<Integer> listOfNeighbour = getNeighbours(source, edges);
         if (!listOfNeighbour.isEmpty()){
             for (int neighbour : listOfNeighbour){
-                recursionDfsReverse(neighbour, result);
+                recursionDfsReverse(neighbour);
             }
         }
-        result.add(source);
+        if(index >= list.length){
+            list = new int[0];
+            return ;
+        }
+        list[index] = source;
+        index++;
         visited[source] = 2;
 
     }
@@ -58,14 +63,9 @@ public class TopologicalSort {
 
 }
 
-
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         TopologicalSort topologicalSort = new TopologicalSort(prerequisites,numCourses);
-        List<Integer> result  = topologicalSort.getOrder();
-        int [] finalRes = new int[result.size()];
-        for(int i=0; i< result.size();i++){
-            finalRes[i] = result.get(i);
-        }
-        return finalRes;
+        int [] result  = topologicalSort.getOrder();
+        return result;
     }
 }
