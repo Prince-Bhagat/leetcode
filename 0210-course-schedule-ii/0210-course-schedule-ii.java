@@ -18,20 +18,21 @@ class Solution {
     public int [] getOrder(){
         list = new int[numberOfVertex];
         for (int i = 0; i < numberOfVertex; i++) {
-            recursionDfsReverse(i);
+            boolean nocycle = recursionDfsReverse(i);
+            if(! nocycle) break;
         }
         return list;
 
     }
 
-    public void recursionDfsReverse(int source){
+    public boolean recursionDfsReverse(int source){
 
         if(visited[source] == 1 || isCycleExist){
             isCycleExist = true;
             list = new int[0];
-            return;
+            return false;
         }
-        if(visited[source] == 2) return ;
+        if(visited[source] == 2) return true;
 
         visited[source] = 1;
         List<Integer> listOfNeighbour = getNeighbours(source, edges);
@@ -42,12 +43,12 @@ class Solution {
         }
         if(index >= list.length){
             list = new int[0];
-            return ;
+            return true;
         }
         list[index] = source;
         index++;
         visited[source] = 2;
-
+        return true;
     }
 
     private List<Integer> getNeighbours(int currentNode, int[][] edges) {
