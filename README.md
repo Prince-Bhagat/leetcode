@@ -68,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/Prince-Bhagat/leetcode/tree/master/0268-missing-number) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Prince-Bhagat/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/Prince-Bhagat/leetcode/tree/master/0450-delete-node-in-a-bst) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Prince-Bhagat/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -89,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Prince-Bhagat/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Prince-Bhagat/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Prince-Bhagat/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Prince-Bhagat/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Design
 |  |
 | ------- |
@@ -113,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/Prince-Bhagat/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/Prince-Bhagat/leetcode/tree/master/0133-clone-graph) |
 | [0268-missing-number](https://github.com/Prince-Bhagat/leetcode/tree/master/0268-missing-number) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Prince-Bhagat/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -138,4 +141,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Prince-Bhagat/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Prince-Bhagat/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+## Counting
+|  |
+| ------- |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Prince-Bhagat/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 <!---LeetCode Topics End-->
