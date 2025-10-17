@@ -9,16 +9,16 @@ class Solution {
             while(end < input.length() && input.charAt(end)== startCharacter){
                 end++;
                 String tempString= input.substring(start, end);
-                for(Map.Entry<String , Integer> entry : tempMap.entrySet()){
-                    tempMap.put(entry.getKey(), entry.getValue() + 1);
-                }
+
                 tempMap.put(tempString, 1);
             }
             for(Map.Entry<String , Integer> entry : tempMap.entrySet()){
+                String str = entry.getKey();
+                int tempSize = tempMap.size();
                 if(map.containsKey(entry.getKey())){
-                    map.put(entry.getKey(), map.get(entry.getKey()) + entry.getValue());
+                    map.put(entry.getKey(), map.get(entry.getKey()) + (tempSize - str.length() + 1));
                 }else{
-                    map.put(entry.getKey(), entry.getValue());
+                    map.put(entry.getKey(),(tempSize - str.length() + 1));
                 }
 
             }
@@ -36,6 +36,5 @@ class Solution {
         }else{
             return finalString.length();
         }
-        
     }
 }
