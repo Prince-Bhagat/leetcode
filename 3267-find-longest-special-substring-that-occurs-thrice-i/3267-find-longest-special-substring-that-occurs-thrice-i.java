@@ -5,33 +5,23 @@ class Solution {
         int end = 0;
         while (end < input.length()){
             Character startCharacter = input.charAt(start);
+            Map<String, Integer> tempMap = new HashMap<>();
             while(end < input.length() && input.charAt(end)== startCharacter){
                 end++;
-            }
-            String substring = input.substring(start, end);
-            if((end - start) > 1){
-                // Generate Substring
-                int size = end - start;
-                int counter = size;
-                for (int i = 1; i <= size; i++) {
-                    Character ch = input.charAt(start);
-                    String currentsubstring = String.valueOf(ch).repeat(i);
-                    if(map.containsKey(currentsubstring)){
-                        map.put(currentsubstring, map.get(currentsubstring)+counter);
-                    }else{
-                        map.put(currentsubstring, counter);
-                    }
-                    counter--;
+                String tempString= input.substring(start, end);
+                for(Map.Entry<String , Integer> entry : tempMap.entrySet()){
+                    tempMap.put(entry.getKey(), entry.getValue() + 1);
                 }
-
-            }else{
-                if(map.containsKey(substring)){
-                    map.put(substring, map.get(substring)+1);
+                tempMap.put(tempString, 1);
+            }
+            for(Map.Entry<String , Integer> entry : tempMap.entrySet()){
+                if(map.containsKey(entry.getKey())){
+                    map.put(entry.getKey(), map.get(entry.getKey()) + entry.getValue());
                 }else{
-                    map.put(substring, 1);
+                    map.put(entry.getKey(), entry.getValue());
                 }
-            }
 
+            }
             start = end;
         }
 
@@ -46,5 +36,6 @@ class Solution {
         }else{
             return finalString.length();
         }
+        
     }
 }
