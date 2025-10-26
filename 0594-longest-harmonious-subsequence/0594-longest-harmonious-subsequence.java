@@ -20,22 +20,20 @@ class Solution {
             sort(nums);
         int length = 0;
 
-        int start =0;
-        int end = start +1;
+        int start = 0, middle , end = start + 1;
 
-        while (start < nums.length -1){
-            end = start + 1;
-
-            int startElement = nums[start];
-            int endElement = nums[end];
-
-            while(end < nums.length && (nums[start] == nums[end] || Math.abs(nums[start] - nums[end]) == 1)){
+        while(end < nums.length){
+            while( end < nums.length && nums[start] ==  nums[end]){
                 end++;
             }
-            if((nums[end -1] - nums[start])> 0 && length < (end - start)){
-                length = (end - start);
+            middle = end -1;
+            while ( end < nums.length && Math.abs(nums[start] - nums[end]) == 1){
+                end++;
             }
-            start++;
+            if(nums[middle] != nums[end -1] && (end - start ) > length){
+                length = end - start;
+            }
+            start = middle +1 ;
         }
         return length;
 
