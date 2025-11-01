@@ -99,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Prince-Bhagat/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Prince-Bhagat/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Prince-Bhagat/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
+| [1250-longest-common-subsequence](https://github.com/Prince-Bhagat/leetcode/tree/master/1250-longest-common-subsequence) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Prince-Bhagat/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Design
 |  |
@@ -159,4 +160,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/Prince-Bhagat/leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Prince-Bhagat/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1250-longest-common-subsequence](https://github.com/Prince-Bhagat/leetcode/tree/master/1250-longest-common-subsequence) |
 <!---LeetCode Topics End-->
