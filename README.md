@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Prince-Bhagat/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/Prince-Bhagat/leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0268-missing-number](https://github.com/Prince-Bhagat/leetcode/tree/master/0268-missing-number) |
+| [0524-longest-word-in-dictionary-through-deleting](https://github.com/Prince-Bhagat/leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0594-longest-harmonious-subsequence](https://github.com/Prince-Bhagat/leetcode/tree/master/0594-longest-harmonious-subsequence) |
 ## Math
 |  |
@@ -100,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0115-distinct-subsequences](https://github.com/Prince-Bhagat/leetcode/tree/master/0115-distinct-subsequences) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Prince-Bhagat/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0449-serialize-and-deserialize-bst](https://github.com/Prince-Bhagat/leetcode/tree/master/0449-serialize-and-deserialize-bst) |
+| [0524-longest-word-in-dictionary-through-deleting](https://github.com/Prince-Bhagat/leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0583-delete-operation-for-two-strings](https://github.com/Prince-Bhagat/leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [1250-longest-common-subsequence](https://github.com/Prince-Bhagat/leetcode/tree/master/1250-longest-common-subsequence) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/Prince-Bhagat/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
@@ -137,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/Prince-Bhagat/leetcode/tree/master/0268-missing-number) |
+| [0524-longest-word-in-dictionary-through-deleting](https://github.com/Prince-Bhagat/leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 | [0594-longest-harmonious-subsequence](https://github.com/Prince-Bhagat/leetcode/tree/master/0594-longest-harmonious-subsequence) |
 ## Topological Sort
 |  |
@@ -147,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Prince-Bhagat/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0524-longest-word-in-dictionary-through-deleting](https://github.com/Prince-Bhagat/leetcode/tree/master/0524-longest-word-in-dictionary-through-deleting) |
 ## String Matching
 |  |
 | ------- |
