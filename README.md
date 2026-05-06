@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Prince-Bhagat/leetcode/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/Prince-Bhagat/leetcode/tree/master/0007-reverse-integer) |
 | [0066-plus-one](https://github.com/Prince-Bhagat/leetcode/tree/master/0066-plus-one) |
 | [0268-missing-number](https://github.com/Prince-Bhagat/leetcode/tree/master/0268-missing-number) |
@@ -172,4 +173,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0115-distinct-subsequences](https://github.com/Prince-Bhagat/leetcode/tree/master/0115-distinct-subsequences) |
 | [0583-delete-operation-for-two-strings](https://github.com/Prince-Bhagat/leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [1250-longest-common-subsequence](https://github.com/Prince-Bhagat/leetcode/tree/master/1250-longest-common-subsequence) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/Prince-Bhagat/leetcode/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/Prince-Bhagat/leetcode/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
