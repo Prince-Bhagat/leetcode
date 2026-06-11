@@ -7,6 +7,9 @@ func twoSum(array []int, target int) []int {
 			if(sum == target){
 				return []int{i+1,j+1}
 			}
+            if(sum > target){
+				break
+			}
 		}
 	}
 	return result
