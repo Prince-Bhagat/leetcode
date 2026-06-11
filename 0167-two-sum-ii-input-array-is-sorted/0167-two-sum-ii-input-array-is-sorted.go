@@ -1,16 +1,18 @@
 func twoSum(array []int, target int) []int {
-    result := make([]int, 2)
+    start:= 0;
+	end := len(array)-1
 
-	for i := 0; i< len(array);i++{
-		for j:= i+1;j < len(array);j++{
-			sum := array[i] + array[j]
-			if(sum == target){
-				return []int{i+1,j+1}
-			}
-            if(sum > target){
-				break
-			}
+	for start < end {
+		sum := array[start] + array[end]
+		if(sum < target){
+			start++
+		}
+		if(sum > target){
+			end--
+		}
+		if(sum == target){
+			return []int{start +1, end+1}
 		}
 	}
-	return result
+	return []int{}
 }
