@@ -11,7 +11,6 @@ func Constructor() MinStack {
 
 
 func (this *MinStack) Push(value int)  {
-    // fmt.Println("\nPUSH", value)
         if this.head == nil{
             this.head = &Node{
                 value : value,
@@ -32,21 +31,15 @@ func (this *MinStack) Push(value int)  {
                 this.minNode = newNode
             } 
         }
-    // fmt.Printf("\nCurrent Min Node :%d", this.minNode.value)
-    // this.print()
-
-
 }
 
 
 func (this *MinStack) Pop()  {
-    // fmt.Println("\nPOP")
+
     if (this.head == nil){
-        // fmt.Println("No Element in stack")
         return
     }
     if (this.minNode == nil){
-        // fmt.Println("No minimum Element")
         return
     }
 
@@ -56,28 +49,15 @@ func (this *MinStack) Pop()  {
         this.minNode = this.minNode.oldMinNode
     }
     this.head = newHead
-    // this.head.prevNode = nil
-
-    // this.print()
-    // this.printMin()
-}
-
-func (this * MinStack ) printMin(){
-    temp := this.minNode
-    fmt.Printf("\nMIN STACK : ")
-    for temp != nil{
-        fmt.Printf("%d -> ", temp.value)
-        temp = temp.oldMinNode
-    }
-    fmt.Printf("\n")
 
 }
+
+
 func (this *MinStack) Top() int {
-    // fmt.Println("\nTOP")
+
      temp := this.head
-    // fmt.Printf("\nSTACK : ")
+
     for temp != nil{
-        // fmt.Printf("%d -> ", temp.value)
         temp = temp.nextNode
     }
     if(this.head !=nil){
@@ -88,23 +68,12 @@ func (this *MinStack) Top() int {
     
 }
 
-func(this *MinStack) print(){
-    temp := this.head
-    fmt.Printf("\nSTACK : ")
-    for temp != nil{
-        fmt.Printf("%d -> ", temp.value)
-        temp = temp.nextNode
-    }
-    fmt.Printf("\n========================\n")
-}
+
 func (this *MinStack) GetMin() int {
-    // fmt.Println("\nGET MIN")
-    
+
     if (this.minNode != nil){
-        // fmt.Printf("%d", this.minNode.value)
         return this.minNode.value
     }else{
-        // fmt.Printf("\n MINIMUM is EMPty")
         return -100
     }
     
