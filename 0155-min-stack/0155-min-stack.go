@@ -54,12 +54,6 @@ func (this *MinStack) Pop()  {
 
 
 func (this *MinStack) Top() int {
-
-     temp := this.head
-
-    for temp != nil{
-        temp = temp.nextNode
-    }
     if(this.head !=nil){
         return this.head.value
     }else{
